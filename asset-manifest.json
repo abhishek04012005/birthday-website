@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/birthday-website/static/css/main.7e57fee5.css",
+    "main.js": "/birthday-website/static/js/main.0d98ea8f.js",
+    "static/js/453.7371fa03.chunk.js": "/birthday-website/static/js/453.7371fa03.chunk.js",
+    "static/media/page_bottom_bar.png": "/birthday-website/static/media/page_bottom_bar.45c4d55cf1086a0af6d0.png",
+    "static/media/hero_bottom.png": "/birthday-website/static/media/hero_bottom.5787d836a0871c3357e9.png",
+    "static/media/frame_with_photo.png": "/birthday-website/static/media/frame_with_photo.b40c3db94a43eea13db9.png",
+    "static/media/bottom_grass_green.png": "/birthday-website/static/media/bottom_grass_green.30f7af53fe48d158b7e9.png",
+    "static/media/top_grass.svg": "/birthday-website/static/media/top_grass.b4baf3ffb05fdb33f568.svg",
+    "static/media/bottom_grass_shadow.png": "/birthday-website/static/media/bottom_grass_shadow.a07ee1ba1694acddaefd.png",
+    "static/media/lion.png": "/birthday-website/static/media/lion.13cd03d56a29ece81420.png",
+    "static/media/panda.png": "/birthday-website/static/media/panda.729a756fff646327644c.png",
+    "static/media/top_banner.png": "/birthday-website/static/media/top_banner.2b76a58e81a6e02849c9.png",
+    "static/media/sky_top.png": "/birthday-website/static/media/sky_top.6034732edbbed133d7e8.png",
+    "static/media/Elephant.png": "/birthday-website/static/media/Elephant.2ec6ff51eab39f2a1299.png",
+    "static/media/girafe.png": "/birthday-website/static/media/girafe.fe97cd54a819308377e5.png",
+    "static/media/monkey.svg": "/birthday-website/static/media/monkey.7e5d830f70449ffa22c08c6870426d61.svg",
+    "index.html": "/birthday-website/index.html",
+    "main.7e57fee5.css.map": "/birthday-website/static/css/main.7e57fee5.css.map",
+    "main.0d98ea8f.js.map": "/birthday-website/static/js/main.0d98ea8f.js.map",
+    "453.7371fa03.chunk.js.map": "/birthday-website/static/js/453.7371fa03.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e57fee5.css",
+    "static/js/main.0d98ea8f.js"
+  ]
+}
