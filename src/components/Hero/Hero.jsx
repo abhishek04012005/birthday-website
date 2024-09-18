@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import { Button } from '@mui/material';
 import Grid from '@mui/material/Grid';
 import MonkeyImage from '../../assests/animals/monkey.svg'
@@ -42,7 +43,7 @@ const Hero = () => {
                                             </div>
                                             <div>
                                                 <Button variant="contained" sx={{ backgroundColor: '#244E3C', color: 'white', mt: 0 }} >
-                                                    Yes, I'm in
+                                                <Link to="rspv-section" smooth={true} duration={800} >Yes, I'm in</Link>
                                                 </Button>
                                             </div>
                                         </div>

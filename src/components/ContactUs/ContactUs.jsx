@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Grid from '@mui/material/Grid';
 import { TextField, Button, Typography, Link } from '@mui/material';
 import { WhatsApp, Phone, Home, Email } from '@mui/icons-material';
@@ -7,6 +7,27 @@ import PageContainer from '../Custom/PageContainer/PageContainer';
 import '../../index.css';
 
 const ContactUs = () => {
+
+    const [formData, setFormData] = useState({
+
+        message: ''
+    });
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value
+        });
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const { name, subject, message } = formData;
+        const whatsappURL = `https://api.whatsapp.com/send?phone=9264248504&text=${encodeURIComponent(`Name: ${name}\n\n Subject: ${subject}\n\n Message: ${message}`)}`;
+        window.open(whatsappURL, '_blank');
+    };
+
     return (
         <div id='contact-section'>
 
@@ -17,12 +38,15 @@ const ContactUs = () => {
                             <h1>Send Your Wish</h1>
                         </div>
                         <div className="contact_gap">
-                            <TextField label="Name" variant="outlined" margin="normal" fullWidth />
-                            <TextField label="Subject" variant="outlined" margin="normal" fullWidth />
-                            <TextField label="Message" variant="outlined" margin="normal" fullWidth multiline rows={4} />
-                            <Button variant="contained" sx={{ backgroundColor: '#244E3C', color: 'white', mt: 2 }} fullWidth>
-                                <WhatsApp /> &nbsp; Send
-                            </Button>
+                            <form onSubmit={handleSubmit}>
+                                <TextField label="Name" name="name" value={formData.name} onChange={handleChange} variant="outlined" margin="normal" fullWidth />
+                                <TextField label="Subject"  name="subject" value={formData.subject} onChange={handleChange} variant="outlined" margin="normal" fullWidth />
+                                <TextField label="Message" name="message" value={formData.message} onChange={handleChange}
+                                variant="outlined" margin="normal" fullWidth multiline rows={4} />
+                                <Button type='submit' variant="contained" sx={{ backgroundColor: '#244E3C', color: 'white', mt: 2 }} fullWidth>
+                                    <WhatsApp /> &nbsp; Send
+                                </Button>
+                            </form>
                         </div>
                     </Grid>
                     <Grid item xs={10} md={4} className="grid-header">
