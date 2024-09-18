@@ -97,11 +97,11 @@ const RSPV = () => {
                                 <form ref={formRef}
                                     onSubmit={handleSubmit}>
 
-                                    <TextField label="Name" name='name' onChange={handleChange} value={form.name} variant="outlined" margin="normal" fullWidth />
-                                    <TextField label="Contact Number" name='number' value={form.number} onChange={handleChange} variant="outlined" margin="normal" fullWidth />
+                                    <TextField label="Name" required name='name' onChange={handleChange} value={form.name} variant="outlined" margin="normal" fullWidth />
+                                    <TextField label="Contact Number" required name='number' value={form.number} onChange={handleChange} variant="outlined" margin="normal" fullWidth />
 
                                     <div className='dropdown-menu'>
-                                        <select id="dropdown" className='dropdown-item' name='guest' value={form.guest} onChange={handleChange}>
+                                        <select id="dropdown" required className='dropdown-item' name='guest' value={form.guest} onChange={handleChange}>
                                             <option value="">Number Of Guests</option>
                                             <option value="01">01</option>
                                             <option value="02">02</option>
@@ -115,7 +115,7 @@ const RSPV = () => {
                                     </div>
 
                                     <div className='dropdown-menu'>
-                                        <select id="dropdown" className='dropdown-item' name='meal' value={form.meal} onChange={handleChange}>
+                                        <select id="dropdown" required className='dropdown-item' name='meal' value={form.meal} onChange={handleChange}>
                                             <option value=""><em>Meal Prefrences</em></option>
                                             <option value="Veg">Veg</option>
                                             <option value="non_veg">Non-Veg</option>
