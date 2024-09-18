@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/birthday-website/static/css/main.7e57fee5.css",
-    "main.js": "/birthday-website/static/js/main.0d98ea8f.js",
+    "main.css": "/birthday-website/static/css/main.2686fe61.css",
+    "main.js": "/birthday-website/static/js/main.08d01c36.js",
     "static/js/453.7371fa03.chunk.js": "/birthday-website/static/js/453.7371fa03.chunk.js",
-    "static/media/page_bottom_bar.png": "/birthday-website/static/media/page_bottom_bar.45c4d55cf1086a0af6d0.png",
-    "static/media/hero_bottom.png": "/birthday-website/static/media/hero_bottom.5787d836a0871c3357e9.png",
+    "static/media/page_bottom_bar.svg": "/birthday-website/static/media/page_bottom_bar.5f8405224a36a719ac06.svg",
+    "static/media/hero_bottom.svg": "/birthday-website/static/media/hero_bottom.645df6f7ea7a1032d214.svg",
     "static/media/frame_with_photo.png": "/birthday-website/static/media/frame_with_photo.b40c3db94a43eea13db9.png",
     "static/media/bottom_grass_green.png": "/birthday-website/static/media/bottom_grass_green.30f7af53fe48d158b7e9.png",
     "static/media/top_grass.svg": "/birthday-website/static/media/top_grass.b4baf3ffb05fdb33f568.svg",
@@ -17,12 +17,12 @@
     "static/media/girafe.png": "/birthday-website/static/media/girafe.fe97cd54a819308377e5.png",
     "static/media/monkey.svg": "/birthday-website/static/media/monkey.7e5d830f70449ffa22c08c6870426d61.svg",
     "index.html": "/birthday-website/index.html",
-    "main.7e57fee5.css.map": "/birthday-website/static/css/main.7e57fee5.css.map",
-    "main.0d98ea8f.js.map": "/birthday-website/static/js/main.0d98ea8f.js.map",
+    "main.2686fe61.css.map": "/birthday-website/static/css/main.2686fe61.css.map",
+    "main.08d01c36.js.map": "/birthday-website/static/js/main.08d01c36.js.map",
     "453.7371fa03.chunk.js.map": "/birthday-website/static/js/453.7371fa03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e57fee5.css",
-    "static/js/main.0d98ea8f.js"
+    "static/css/main.2686fe61.css",
+    "static/js/main.08d01c36.js"
   ]
 }
