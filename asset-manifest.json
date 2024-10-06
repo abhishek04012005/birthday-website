@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/birthday-website/static/css/main.2686fe61.css",
-    "main.js": "/birthday-website/static/js/main.7234bc19.js",
+    "main.css": "/birthday-website/static/css/main.421c9c6f.css",
+    "main.js": "/birthday-website/static/js/main.2b7998b0.js",
     "static/js/453.7371fa03.chunk.js": "/birthday-website/static/js/453.7371fa03.chunk.js",
     "static/media/page_bottom_bar.svg": "/birthday-website/static/media/page_bottom_bar.5f8405224a36a719ac06.svg",
-    "static/media/hero_bottom.svg": "/birthday-website/static/media/hero_bottom.645df6f7ea7a1032d214.svg",
-    "static/media/frame_with_photo.png": "/birthday-website/static/media/frame_with_photo.b40c3db94a43eea13db9.png",
+    "static/media/hero_bottom1.svg": "/birthday-website/static/media/hero_bottom1.6ec3daea6f1c4263e4db.svg",
+    "static/media/circle_frame.png": "/birthday-website/static/media/circle_frame.d65b45a56a5a31fee99b.png",
+    "static/media/puchu.png": "/birthday-website/static/media/puchu.4911e4ce80cf99328bc4.png",
     "static/media/bottom_grass_green.png": "/birthday-website/static/media/bottom_grass_green.30f7af53fe48d158b7e9.png",
     "static/media/top_grass.svg": "/birthday-website/static/media/top_grass.b4baf3ffb05fdb33f568.svg",
     "static/media/bottom_grass_shadow.png": "/birthday-website/static/media/bottom_grass_shadow.a07ee1ba1694acddaefd.png",
@@ -15,14 +16,14 @@
     "static/media/sky_top.png": "/birthday-website/static/media/sky_top.6034732edbbed133d7e8.png",
     "static/media/Elephant.png": "/birthday-website/static/media/Elephant.2ec6ff51eab39f2a1299.png",
     "static/media/girafe.png": "/birthday-website/static/media/girafe.fe97cd54a819308377e5.png",
-    "static/media/monkey.svg": "/birthday-website/static/media/monkey.7e5d830f70449ffa22c08c6870426d61.svg",
+    "static/media/hero_balloon.svg": "/birthday-website/static/media/hero_balloon.a8387b575fe8a97a69be63f3c276ddbe.svg",
     "index.html": "/birthday-website/index.html",
-    "main.2686fe61.css.map": "/birthday-website/static/css/main.2686fe61.css.map",
-    "main.7234bc19.js.map": "/birthday-website/static/js/main.7234bc19.js.map",
+    "main.421c9c6f.css.map": "/birthday-website/static/css/main.421c9c6f.css.map",
+    "main.2b7998b0.js.map": "/birthday-website/static/js/main.2b7998b0.js.map",
     "453.7371fa03.chunk.js.map": "/birthday-website/static/js/453.7371fa03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2686fe61.css",
-    "static/js/main.7234bc19.js"
+    "static/css/main.421c9c6f.css",
+    "static/js/main.2b7998b0.js"
   ]
 }
