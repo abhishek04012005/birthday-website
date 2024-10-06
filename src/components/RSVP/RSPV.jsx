@@ -97,20 +97,20 @@ const RSPV = () => {
                                 <form ref={formRef}
                                     onSubmit={handleSubmit}>
 
-                                    <TextField label="Name" required name='name' onChange={handleChange} value={form.name} variant="outlined" margin="normal" fullWidth />
-                                    <TextField label="Contact Number" required name='number' value={form.number} onChange={handleChange} variant="outlined" margin="normal" fullWidth />
+                                    <TextField label="Name" className="custom-label" required name='name' onChange={handleChange} value={form.name} variant="outlined" margin="normal" fullWidth />
+                                    <TextField label="Contact Number" className="custom-label" required name='number' value={form.number} onChange={handleChange} variant="outlined" margin="normal" fullWidth />
 
                                     <div className='dropdown-menu'>
                                         <select id="dropdown" required className='dropdown-item' name='guest' value={form.guest} onChange={handleChange}>
-                                            <option value="">Number Of Guests</option>
-                                            <option value="01">01</option>
-                                            <option value="02">02</option>
-                                            <option value="03">03</option>
-                                            <option value="04">04</option>
-                                            <option value="05">05</option>
-                                            <option value="06">06</option>
-                                            <option value="07">07</option>
-                                            <option value="08">08</option>
+                                            <option className='option-custom' value="">Number Of Guests</option>
+                                            <option className='option-custom' value="01">01</option>
+                                            <option className='option-custom' value="02">02</option>
+                                            <option className='option-custom' value="03">03</option>
+                                            <option className='option-custom' value="04">04</option>
+                                            <option className='option-custom' value="05">05</option>
+                                            <option className='option-custom' value="06">06</option>
+                                            <option className='option-custom' value="07">07</option>
+                                            <option className='option-custom' value="08">08</option>
                                         </select>
                                     </div>
 

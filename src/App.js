@@ -6,7 +6,7 @@ import Hero from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
 import RSPV from './components/RSVP/RSPV';
 import Story from './components/Story/Story';
-import Test from './components/Test/Test';
+
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <ContactUs />
       <Footer />
 
-      <Test />
+      {/* <Test /> */}
     </div>
   );
 }

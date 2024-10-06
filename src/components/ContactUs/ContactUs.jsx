@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Grid from '@mui/material/Grid';
+
 import { TextField, Button, Typography, Link } from '@mui/material';
 import { WhatsApp, Phone, Home, Email } from '@mui/icons-material';
 import './ContactUs.css';
@@ -39,9 +40,9 @@ const ContactUs = () => {
                         </div>
                         <div className="contact_gap">
                             <form onSubmit={handleSubmit}>
-                                <TextField label="Name" required name="name" value={formData.name} onChange={handleChange} variant="outlined" margin="normal" fullWidth />
-                                <TextField label="Subject" required name="subject" value={formData.subject} onChange={handleChange} variant="outlined" margin="normal" fullWidth />
-                                <TextField label="Message" required name="message" value={formData.message} onChange={handleChange}
+                                <TextField label="Name" className="custom-label" required name="name" value={formData.name} onChange={handleChange} variant="outlined" margin="normal" fullWidth />
+                                <TextField label="Subject" className="custom-label" required name="subject" value={formData.subject} onChange={handleChange} variant="outlined" margin="normal" fullWidth />
+                                <TextField label="Message" className="custom-label" required name="message" value={formData.message} onChange={handleChange}
                                 variant="outlined" margin="normal" fullWidth multiline rows={4} />
                                 <Button type='submit' variant="contained" sx={{ backgroundColor: '#244E3C', color: 'white', mt: 2 }} fullWidth>
                                     <WhatsApp /> &nbsp; Send

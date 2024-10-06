@@ -1,25 +1,28 @@
-// import React, { useState } from 'react';
-// import Confetti from 'react-confetti';
+import * as React from 'react';
+import frameCircle from '../../assests/circle_frame.png'
+import childImage from '../../assests/puchu.png'
 import './Test.css';
+
+
 
 const Test = () => {
 
-    // const [showConfetti, setShowConfetti] = useState(false);
 
-    // const handleClick = () => {
-    //     setShowConfetti(true);
-    //     setTimeout(() => setShowConfetti(false), 2000); 
-    // };
+  return (
+    <>
+      <div className="frame">
+        <div className="circle-frame">
+          <div className='circle-frame-image'>
 
+            <img src={frameCircle} alt="" />
 
-    return (
-        <>
-            {/* <div>
-                <button onClick={handleClick}>Celebrate!</button>
-                {showConfetti && <Confetti />}
-            </div> */}
-        </>
-    );
+          </div>
+          <div className='child-image'> <img src={childImage} alt="" /></div>
+        </div>
+      </div>
+
+    </>
+  );
 };
 
 export default Test;
