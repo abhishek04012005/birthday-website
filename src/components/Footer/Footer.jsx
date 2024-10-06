@@ -9,10 +9,10 @@ const Footer = () => {
                 <div className="footer-item">
                     <div className="footer-link">
                         <ul>
-                            <li><p><WhatsApp fontSize="large" /> </p></li>   {/* Optional: fontSize can be adjusted */}
-                            <li><Facebook fontSize="large" /></li>
-                            <li><YouTube fontSize="large" /></li>
-                            <li><Instagram fontSize="large" /></li>
+                            <li> <a href="https://wa.me/9264248504?text=Hello%2C%20how%20are%20you%3F" target='blank'> <WhatsApp fontSize="large" /> </a> </li>   {/* Optional: fontSize can be adjusted */}
+                            <li>  <a href="https://www.facebook.com" target='blank'>  <Facebook fontSize="large" /> </a></li>
+                            <li> <a href="https://www.youtube.com/@theabhishekchoudhary0401" target='blank'>  <YouTube fontSize="large" /></a> </li>
+                            <li> <a href="https://www.instagram.com/theabhishekchoudhary0401/" target='blank'> <Instagram fontSize="large" /></a></li>
                         </ul>
                     </div>
                     <div className="footer-copyright">

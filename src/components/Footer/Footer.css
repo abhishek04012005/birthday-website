@@ -38,6 +38,10 @@
     list-style: none;
 }
 
+.footer-link ul li a{
+    color: white;
+}
+
 .footer-copyright p {
     color: white;
 }
