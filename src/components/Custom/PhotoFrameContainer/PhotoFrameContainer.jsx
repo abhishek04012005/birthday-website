@@ -21,7 +21,7 @@ const PhotoFrameContainer = (props) => {
                         <div className="photo-frame">
                             <div className='grid-header photo-frame-title'><h1>{props.cardTitle}</h1></div>
                             <div className="inner-photo-frame">
-                                {/* <h1>hello world</h1> */}
+                                <img src={props.babyImage} alt="" />
                             </div>
                             <div className="photo-paragraph"><p>{props.cardContent}</p></div>
                         </div>

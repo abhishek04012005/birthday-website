@@ -41,6 +41,7 @@ const Story = () => {
                                             <PhotoFrameContainer
                                                 cardTitle={card.cardTitle}
                                                 cardContent={card.cardContent}
+                                                babyImage={card.babyImage}
                                                 framePhotoUrl={card.framePhotoUrl}
                                             />
                                         </Grid>

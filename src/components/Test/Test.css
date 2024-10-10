@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    padding-top: 15px;
 }
 
 .circle-frame .circle-frame-image {
@@ -24,7 +25,7 @@
 
 .circle-frame .child-image {
     display: flex;
-    border: 2px solid #e6ddbfff;
+    border: 10px solid #e6ddbfff;
     border-radius: 50%;
     position: absolute;
     overflow: hidden;
@@ -33,7 +34,9 @@
 
 
 
-.circle-frame .child-image img {
+
+
+.child-image img {
     animation: scaleInOut 15s infinite linear;
 }
 
