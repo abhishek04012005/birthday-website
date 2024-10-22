@@ -31,15 +31,14 @@ const Event = () => {
                                 <h1 >Birthday Celebration</h1>
                                 <div className="contact-item contact_gap">
                                     <Typography variant="body1">
-                                        <h4 style={{ display: 'flex' }}><CalendarMonth />&nbsp;<span>30th of December 2024</span></h4>
+                                        <h4 style={{ display: 'flex' }}><CalendarMonth />&nbsp;<span>22th of October 2024</span></h4>
                                     </Typography>
                                     <Typography variant="body1">
                                         <h4 style={{ display: 'flex' }}><AccessTimeFilled />&nbsp;<span>7:00 PM (IST)</span></h4>
                                     </Typography>
                                     <Typography variant="body1">
                                         <h4 style={{ display: 'flex' }}>
-                                            <Home />&nbsp;<span> Near Radission Blu,
-                                                Indore, Madhya Pradesh 451010 </span>
+                                            <Home />&nbsp;<span> Block-B, 701, Ratan Orbit, Indra Nagar Road, Kalayanpur, Kanpur, Uttar Pradesh-208026 </span>
                                         </h4>
                                     </Typography>
                                     <Typography variant="body1">

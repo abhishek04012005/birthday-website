@@ -27,10 +27,10 @@
 }
 
 .inner-photo-frame {
-    /* height: 300px; */
-    /* background-color: white; */
-    /* border: 5px solid #E8DFC1; */
+  
+    border: 5px solid #E8DFC1;
 }
+
 
 .inner-photo-frame img {
     width: 100%;

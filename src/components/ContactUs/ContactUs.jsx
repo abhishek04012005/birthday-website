@@ -24,9 +24,10 @@ const ContactUs = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         const { name, subject, message } = formData;
-        const whatsappURL = `https://api.whatsapp.com/send?phone=9264248504&text=${encodeURIComponent(`Name: ${name}\n\n Subject: ${subject}\n\n Message: ${message}`)}`;
+        const whatsappURL = `https://api.whatsapp.com/send?phone=8368877024&text=${encodeURIComponent(`Name: ${name}\n\n Subject: ${subject}\n\n Message: ${message}`)}`;
         window.open(whatsappURL, '_blank');
     };
+    
 
     return (
         <div id='contact-section'>
@@ -54,20 +55,20 @@ const ContactUs = () => {
                             <h1>Contact</h1>
                             <div className="contact-item contact_gap">
                                 <Typography variant="body1">
-                                    <h4 style={{ display: 'flex' }}><Phone />&nbsp;<span>+91-9264268504</span></h4>
+                                    <h4 style={{ display: 'flex' }}><Phone />&nbsp;<span>+91-8368877024</span></h4>
                                 </Typography>
                                 <Typography variant="body1">
-                                    <h4 style={{ display: 'flex' }}><Home />&nbsp;<span>Indore, Madhya Pradesh 452010</span></h4>
+                                    <h4 style={{ display: 'flex' }}><Home />&nbsp;<span>Block-B, 701, Ratan Orbit, Indra Nagar Road, Kalayanpur, Kanpur, Uttar Pradesh-208026</span></h4>
                                 </Typography>
                                 <Typography variant="body1">
                                     <h4 style={{ display: 'flex' }}><Email />
                                         &nbsp;<Link href="mailto:theabhishekchoudhary01@gmail.com" underline="none">
-                                            <span> abhishek@gmail.com</span>
+                                            <span> theabhishekchoudhary0401</span>
                                         </Link>
                                     </h4>
                                 </Typography>
                                 <Typography variant="body1">
-                                    <h4 style={{ display: 'flex' }}><WhatsApp />&nbsp;<span>+91-9264248504</span></h4>
+                                    <h4 style={{ display: 'flex' }}><WhatsApp />&nbsp;<span>+91-8368877024</span></h4>
                                 </Typography>
                             </div>
                         </div>
